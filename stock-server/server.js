@@ -2,11 +2,12 @@ const express = require('express')
 const app = express()
 const axios = require('axios')
 const cheerio = require('cheerio')
-const PORT = 80
+const PORT = process.env.PORT || 80
 const Nightmare = require('nightmare')
 const nightmare = Nightmare({
     show: false
 });
+console.log("시작...")
 const cors = require('cors')
 const path = require('path')
 app.use(cors()) 
