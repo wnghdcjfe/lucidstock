@@ -1,0 +1,28 @@
+{
+  "name": "lucidstock",
+  "version": "1.0.0",
+  "description": "lucidstock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start" : "node stock-server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wnghdcjfe/lucidstock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wnghdcjfe/lucidstock/issues"
+  },
+  "homepage": "https://github.com/wnghdcjfe/lucidstock#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nightmare": "^3.0.2",
+    "vo": "^4.0.2"
+  }
+}
